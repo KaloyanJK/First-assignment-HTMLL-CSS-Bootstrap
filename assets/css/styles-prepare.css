@@ -54,6 +54,10 @@
     margin: 100px 0;
 }
 
+.card-icon {
+    color: var(--color-primary);
+}
+
 /* ============================================ */
 /* Section 3 */
 

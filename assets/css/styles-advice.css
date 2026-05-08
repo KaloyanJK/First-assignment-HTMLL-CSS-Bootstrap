@@ -39,6 +39,11 @@
         url("../img/hero-image-4.jpg") left bottom/cover no-repeat;
 }
 
+/* Cards */
+.card-icon {
+    color: var(--color-primary);
+}
+
 /* ============================================ */
 /* Media queries for responsiveness */
 
