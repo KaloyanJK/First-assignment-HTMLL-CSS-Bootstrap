@@ -9,16 +9,16 @@
     --color-bg-main: rgb(243, 233, 198);
     --color-bg-soft: rgb(250, 245, 228);
     --color-text-main: rgb(30, 42, 30);
-    --color-text-light: rgb(243, 233, 198);
+    --color-text-light: rgb(247, 240, 214);
     --color-border: rgb(212, 200, 158);
 }
 
 .dark_background {
-    background-color: rgba(47, 74, 46, 0.8) !important;
+    background-color: rgba(47, 74, 46, 0.9) !important;
 }
 
 .light_background{
-    background-color: rgba(196, 122, 44, 0.8) !important;
+    background-color: rgba(196, 122, 44, 0.9) !important;
 }
 
 .text_shadow {
@@ -66,19 +66,19 @@ main {
 
 .btn-styles,
 .btn-styles-reverse {
+    border: 2px solid whitesmoke !important;
     border-radius: 0;
-    border: none;
-    color: var(--color-text-light) !important;
 }
 
 .btn-styles {
     background-color: var(--color-accent) !important;
-    border: 3px solid var(--color-border);
+    color: var(--color-text-light) !important;
 }
 
 .btn-styles-reverse {
     background-color: var(--color-primary) !important;
-    border: 3px solid var(--color-border);
+    color: var(--color-text-light) !important;
+
 }
 
 .btn-styles:hover,
