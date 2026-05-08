@@ -73,10 +73,12 @@ main {
 
 .btn-styles {
     background-color: var(--color-accent) !important;
+    border: 3px solid var(--color-border);
 }
 
 .btn-styles-reverse {
     background-color: var(--color-primary) !important;
+    border: 3px solid var(--color-border);
 }
 
 .btn-styles:hover,
