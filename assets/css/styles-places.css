@@ -13,3 +13,56 @@
     --color-border: rgb(212, 200, 158);
 }
 
+/* ============================================ */
+
+#main-places {
+    background:
+        linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.8)
+        ),
+        url("../img/tent+men.jpg") left bottom/cover no-repeat fixed;
+
+    padding-top: 0;
+}
+
+/* ============================================ */
+/* Section 1  */
+
+/* margin-bottom: 50px; */
+
+/* Hero */
+
+#section_banner {
+    background:
+        linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.9)
+        ),
+        url("../img/places_hero-2.jpg") left top/cover no-repeat;
+    height: 500px;
+}
+
+.header_places h1 {
+    color: whitesmoke;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* ============================================ */
+/* Section 2 */
+
+/* Cads */
+
+#cards_row h3, p {
+    color: var(--color-text-light);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
