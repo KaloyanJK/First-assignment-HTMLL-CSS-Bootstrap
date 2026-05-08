@@ -38,3 +38,18 @@
         ),
         url("../img/hero-image-4.jpg") left bottom/cover no-repeat;
 }
+
+/* ============================================ */
+/* Media queries for responsiveness */
+
+@media (max-width: 576px) {
+    .custom_background {
+        background-color: rgba(47, 74, 46, 0.3);
+    }   
+}
+
+@media (min-width: 768px) {
+    .custom_background {
+        background-color: rgba(47, 74, 46, 0.8);
+    }   
+}
