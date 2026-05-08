@@ -1,0 +1,42 @@
+/* ============================================ */
+/* Color variables */
+
+:root {
+    --color-primary: rgb(47, 74, 46);
+    --color-primary-dark: rgb(36, 58, 35);
+    --color-accent: rgb(196, 122, 44);
+    --color-accent-light: rgb(226, 164, 94);
+    --color-bg-main: rgb(243, 233, 198);
+    --color-bg-soft: rgb(250, 245, 228);
+    --color-text-main: rgb(30, 42, 30);
+    --color-text-light: rgb(243, 233, 198);
+    --color-border: rgb(212, 200, 158);
+}
+
+.dark_background {
+    background-color: rgba(47, 74, 46, 0.8) !important;
+}
+
+.light_background{
+    background-color: rgba(196, 122, 44, 0.8) !important;
+}
+
+.text_shadow {
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+/* ============================================ */
+/* Reset & base styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    color: var(--color-text-light);
+}
