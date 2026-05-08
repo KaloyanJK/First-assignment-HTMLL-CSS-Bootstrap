@@ -29,11 +29,17 @@
 
 /* Section 1 Carousel */
 
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
 .carousel img {
     object-fit: cover;
     max-height: 600px;
 }
-
 
 /* Text shadow  */
 .carousel-caption h2,
@@ -47,4 +53,30 @@
 
 #section-2-prep {
     margin: 100px 0;
+}
+
+/* ============================================ */
+/* Section 3 */
+
+#section-3-prep {
+    margin-top: 100px;
+}
+
+#section-3-prep {
+    border: none !important;
+}
+/* ============================================ */
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+    .list-group {
+        font-size: small;
+    }
+    .carousel-caption h2 {
+        font-size: 1.4rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.95rem;
+    }
 }
