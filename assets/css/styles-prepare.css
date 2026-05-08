@@ -29,11 +29,6 @@
 /* Section 1 */
 
 /* Carousel */
-.carousel-caption {
-    background: rgba(0, 0, 0, 0.1);
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-}
 
 .carousel img {
     object-fit: cover;
