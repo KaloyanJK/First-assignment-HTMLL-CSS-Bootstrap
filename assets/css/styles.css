@@ -115,3 +115,40 @@ main {
     text-align: center;
     padding: 40px;
 }
+
+/* Section 2 */
+/* Accordion styles */
+
+/* Shared accordion base */
+.accordion-button-1,
+.accordion-button-2 {
+    background-color: var(--color-bg-soft);
+    color: var(--color-text-main);
+    box-shadow: none;
+}
+
+.accordion-body-1,
+.accordion-body-2 {
+    background-color: var(--color-bg-soft);
+    box-shadow: none;
+}
+
+/* Accordion active states */
+.accordion-button-1:not(.collapsed) {
+    background-color: var(--color-accent);
+    color: var(--color-text-light);
+    box-shadow: none;
+}
+
+.accordion-button-1:is(.collapsed),
+.accordion-button-2:is(.collapsed) {
+    box-shadow: none;
+}
+
+.accordion-button-2:not(.collapsed) {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    box-shadow: none;
+}
+
+/* ============================================ */

@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Go Camping / Home</title> 
+    <title>Go Camping / Home</title>
     <!-- Favicon -->
-    <link rel="icon" type="img/png" href="assets/logo/favicon-96x96.png"> 
+    <link rel="icon" type="img/png" href="assets/logo/favicon-96x96.png">
     <!-- Bootstrap CSS link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -15,24 +15,23 @@
 </head>
 
 <body>
-    <header> 
+    <header>
         <!-- Navigation bar the same on all pages with added "active" class to the active menu link -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary" aria-label="Main navigation">
-            <div class="container"> 
-                <!-- Make the logo a link to the home page --> 
-                 <a class="navbar-brand"
-                    href="index.html"> 
+            <div class="container">
+                <!-- Make the logo a link to the home page -->
+                <a class="navbar-brand" href="index.html">
                     <img src="assets/logo/Go_Camping_logo.png" alt="Go Camping logo" width="52"
-                        class="d-inline-block align-text-top"> 
-                    </a> 
-                    <button class="navbar-toggler" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
-                    aria-expanded="false" aria-label="Toggle navigation"> 
+                        class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item"> <a class="nav-link active" href="index.html" aria-current="page">Home</a> </li>
+                        <li class="nav-item"> <a class="nav-link active" href="index.html" aria-current="page">Home</a>
+                        </li>
                         <li class="nav-item"> <a class="nav-link" href="prepare.html">Prepare</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="advice.html">Advice</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="places.html">Places</a> </li>
@@ -54,36 +53,187 @@
                     class="fa-solid fa-campground"></i>
             </a>
         </section>
-    
-    <footer class="site-footer">
-        <p>Go Camping - Simple and safe outdoor guidance</p>
-        <ul id="social-networks">
-            <li><a href="https://www.facebook.com" target="_blank"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li><a href="https://www.x.com" target="_blank" aria-label="Visit our Tweeter page (opens in a new tab)"><i
-                        class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank"
-                    aria-label="Visit our YouTube channel (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-            <li><a href="https://www.instagram.com" target="_blank"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i
-                        class="fa-brands fa-instagram"></i></a></li>
-        </ul>
-        <p>
-            <a href="https://jigsaw.w3.org/css-validator/check/referer">
-                <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss"
-                    alt="Valid CSS!">
-            </a>
-        </p>
-    </footer>
 
-    <!-- Font Awesome kit -->
-    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"> </script>
+        <!-- Section 2 -->
+        <section id="section-2-index" class="p-3" aria-labelledby="section2-heading">
+            <div class="container dark_background p-3 p-md-5">
+                <div class="row align-items-center g-2 justify-content-evenly flex-lg-row p-0">
+                    <!-- Image -->
+                    <div class="col-lg-4 text-center">
+                        <figure class="m-0">
+                            <img src="assets/img/camping-2.jpg" class="img-fluid rounded-4"
+                                alt="A peaceful organised campsite surrounded by nature, suitable for beginner campers">
+                        </figure>
+                    </div>
+                    <!-- Accordion 1 -->
+                    <div class="col-lg-6 text-center">
+                        <h2 id="section2-heading" class="text-center mb-4 text-decoration-underline">
+                            Getting Started with Camping
+                        </h2>
+                        <p class="text-start">
+                            Camping can feel unfamiliar at first, but getting started is easier than you might think.
+                            This section walks you through what camping really involves, what to expect when you arrive,
+                            and how everyday life on a campsite works—so you can feel confident before your first trip.
+                        </p>
+                        <div class="accordion" id="section-2-accordion">
+                            <div class="accordion-item border-0">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button accordion-button-1" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#whatIsCamping" aria-expanded="true"
+                                        aria-controls="whatIsCamping">
+                                        What Is Camping?
+                                    </button>
+                                </h2>
+                                <div id="whatIsCamping" class="accordion-collapse collapse show"
+                                    data-bs-parent="#section-2-accordion">
+                                    <div class="accordion-body accordion-body-1">
+                                        <p>Camping usually involves pitching a tent in a designated campsite, staying
+                                            for one or more nights,
+                                            and using shared facilities such as toilets and water points.</p>
+                                        <p>The goal is to enjoy the outdoors comfortably while respecting campsite rules
+                                            and other campers.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item border-0">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button accordion-button-1 collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#isItRidht" aria-expanded="false"
+                                        aria-controls="isItRidht">
+                                        Is It Right for You?
+                                    </button>
+                                </h2>
+                                <div id="isItRidht" class="accordion-collapse collapse"
+                                    data-bs-parent="#section-2-accordion">
+                                    <div class="accordion-body accordion-body-1">
+                                        <p>
+                                            Camping is ideal for people who enjoy fresh air, nature, and a relaxed pace
+                                            of life.
+                                        </p>
+                                        <p>
+                                            You do not need to be highly experienced or extremely fit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item border-0">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button accordion-button-1 collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#worries" aria-expanded="false"
+                                        aria-controls="worries">
+                                        Common Beginner Worries
+                                    </button>
+                                </h2>
+                                <div id="worries" class="accordion-collapse collapse"
+                                    data-bs-parent="#section-2-accordion">
+                                    <div class="accordion-body accordion-body-1">
+                                        <p>
+                                            Many beginners worry about weather, comfort, or not knowing what to expect.
+                                        </p>
+                                        <p>
+                                            UK campsites are designed to support beginners with clear guidance and
+                                            facilities.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item border-0">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button accordion-button-1 collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#whatHappens" aria-expanded="false"
+                                        aria-controls="whatHappens">
+                                        What Happens When You Arrive?
+                                    </button>
+                                </h2>
+                                <div id="whatHappens" class="accordion-collapse collapse"
+                                    data-bs-parent="#section-2-accordion">
+                                    <div class="accordion-body accordion-body-1">
+                                        <p>
+                                            Arriving at a campsite is usually simple and relaxed. You check in at
+                                            reception,
+                                            are shown your pitch or given a map, and then set up your tent in your
+                                            allocated space.
+                                        </p>
+                                        <p>
+                                            Campsites are designed to be beginner-friendly. Staff are used to first-time
+                                            campers and
+                                            are happy to help if you're unsure about anything.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item border-0">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button accordion-button-1 collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#dailyLife" aria-expanded="false"
+                                        aria-controls="dailyLife">
+                                        Daily Life on a Campsite
+                                    </button>
+                                </h2>
+                                <div id="dailyLife" class="accordion-collapse collapse"
+                                    data-bs-parent="#section-2-accordion">
+                                    <div class="accordion-body accordion-body-1">
+                                        <p>
+                                            Camping usually involves pitching a tent in a designated campsite, staying
+                                            for one or more nights,
+                                            and using shared facilities such as toilets and water points.
+                                        </p>
+                                        <p>
+                                            The goal is to enjoy the outdoors comfortably while respecting campsite
+                                            rules
+                                            and other campers.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="prepare.html" class="btn fw-bold btn-styles mt-3"
+                            aria-label="Go to the preparation page to learn how to get ready for camping">
+                            Get Prepared <i class="fa-solid fa-check" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <p>Go Camping - Simple and safe outdoor guidance</p>
+            <ul id="social-networks">
+                <li><a href="https://www.facebook.com" target="_blank"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i
+                            class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li><a href="https://www.x.com" target="_blank"
+                        aria-label="Visit our Tweeter page (opens in a new tab)"><i
+                            class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"
+                        aria-label="Visit our YouTube channel (opens in a new tab)"><i
+                            class="fa-brands fa-youtube"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com" target="_blank"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i
+                            class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+            <p>
+                <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="Valid CSS!">
+                </a>
+            </p>
+        </footer>
+
+        <!-- Font Awesome kit -->
+        <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"> </script>
 </body>
 
 </html>
