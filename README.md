@@ -1,27 +1,27 @@
 # Go Camping – First‑Time Camping Guide
 
-Click **[[LIVE SITE LINK](https://kaloyanjk.github.io/First-assignment-HTMLL-CSS-Bootstrap/index.html)]** to view the deployed website.
+Click **[LIVE SITE LINK](https://kaloyanjk.github.io/First-assignment-HTMLL-CSS-Bootstrap/index.html)** to view the deployed website.
 
 ![Responsive Mockup home page](assets/mockups/home.png)
 
 ---
 
 ## Table of Contents
-- Project Overview
-- Project Updates
-- Goals & Objectives
-- Target Audience
-- User Goals
-- User Experience (UX)
-- User Stories
-- Site Structure
-- Design Decisions
-- Pages Overview
-- Technologies Used
-- AI Usage Declaration
-- Testing & Validation
-- Limitations & Future Improvements
-- Screenshots
+- [Project Overview](#project-overview)
+- [Project Updates](#project-updates)
+- [Goals & Objectives](#goals--objectives)
+- [Target Audience](#target-audience)
+- [User Goals](#user-goals)
+- [User Experience (UX)](#user-experience-ux)
+- [User Stories](#user-stories)
+- [Site Structure](#site-structure)
+- [Design Decisions](#design-decisions)
+- [Pages Overview](#pages-overview)
+- [Technologies Used](#technologies-used)
+- [AI Usage Declaration](#ai-usage-declaration)
+- [Testing & Validation](#testing--validation)
+- [Limitations & Future Improvements](#limitations--future-improvements)
+- [Screenshots](#screenshots)
 
 ---
 
@@ -135,11 +135,10 @@ Each page can be accessed independently but is designed to work as a clear learn
 - Environmental responsibility
 - Reassurance for common worries
 
-### Places – *Places – Where to Camp*
-- Embedded Google Maps iframe showing beginner‑friendly 
-    camping locations across the UK
-- Encourages users to explore locations visually before planning their trip
-- Highlights key UK camping regions
+### Places – *Where to Camp*
+- Embedded Google Maps iframe showing beginner‑friendly camping locations across the UK
+- Visual exploration of campsites before planning a trip
+- Highlights key UK regions such as England, Wales, and Scotland
 
 ---
 
@@ -162,5 +161,5 @@ AI tools were used as **support only**, primarily for:
 All generated content was reviewed, edited, and adapted.
 
 Tools used:
-- **[[COPILOT](https://copilot.microsoft.com/)]**
+- **[COPILOT](https://copilot.microsoft.com/)**
 
