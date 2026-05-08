@@ -163,3 +163,42 @@ All generated content was reviewed, edited, and adapted.
 Tools used:
 - **[COPILOT](https://copilot.microsoft.com/)**
 
+---
+
+## Testing & Validation
+
+Testing details, screenshots, and validation results are documented in a separate file:
+
+➡ **[VIEW VALIDATION REPORT](VALIDATIONS.md)**
+
+---
+
+## Limitations & Future Improvements
+
+### Limitations
+- No backend or form processing
+- Static content only
+- Beginner‑level depth by design
+
+### Future Improvements
+- FAQ page for common questions
+- Downloadable PDF packing checklist
+- Subtle UI animations
+- Beginner confidence quiz
+
+---
+
+## Screenshots
+
+### Homepage
+- [HOMEPAGE 320PX](assets/images/screenshots/)
+- [HOMEPAGE 768PX](assets/images/screenshots/)
+- [HOMEPAGE 1400PX](assets/images/screenshots/)
+
+### Prepare Page
+- [PREPARE PAGE](assets/images/screenshots/)
+
+### Advice Page
+- [ADVICE PAGE](assets/images/screenshots/)
+
+---
