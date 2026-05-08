@@ -227,6 +227,12 @@ footer p {
 }
 
 /* ============================================ */
+/* Modal */
+.modal-content {
+    color: whitesmoke;
+}
+
+/* ============================================ */
 /* Media queries for responsiveness */
 
 @media (max-width: 576px) {
