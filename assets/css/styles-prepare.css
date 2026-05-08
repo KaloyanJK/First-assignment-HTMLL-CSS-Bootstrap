@@ -12,3 +12,32 @@
     --color-border: rgb(212, 200, 158);
 }
 
+/* ============================================ */
+
+#main-prepare {
+    background:
+        linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.8)
+        ),
+        url("../img/hero-image-22.jpg") left bottom/cover no-repeat fixed;
+}
+
+/* ============================================ */
+/* Section 1 */
+
+/* Section 1 Carousel */
+
+.carousel img {
+    object-fit: cover;
+    max-height: 600px;
+}
+
+
+/* Text shadow  */
+.carousel-caption h2,
+.carousel-caption p {
+    color: whitesmoke;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+}
