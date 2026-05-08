@@ -152,3 +152,81 @@ main {
 }
 
 /* ============================================ */
+/* Section 3 */
+/* Cards (cleaned & unified) */
+
+.card,
+.card * {
+    border: none;
+    background-color: transparent;
+}
+
+
+/* Fixed size card */
+.card-fixedSize {
+    width: 15rem;
+    height: 15rem;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        background-color 0.3s ease;
+}
+
+/* Responsive icon */
+.card-icon {
+    font-size: clamp(3rem, 5vw, 5rem);
+    padding: 0.8rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Card text */
+.card-body-index {
+    color: var(--color-text-light);
+    font-size: small;
+}
+
+/* Hover effect */
+.card-fixedSize:hover {
+    transform: translateY(-8px);
+}
+
+.card-fixedSize:hover .card-icon {
+    transform: scale(1.1);
+    color: var(--color-accent);
+}
+
+/* ============================================ */
+/* Footer */
+
+.site-footer {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.875rem;
+    background-color: rgba(243, 233, 198, 0.85);
+}
+
+footer p {
+    color: var(--color-text-main);
+}
+
+#social-networks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+#social-networks a {
+    color: var(--color-primary-dark);
+    font-size: 1.5rem;
+}
+
+#image-homepage {
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* ============================================ */
+
