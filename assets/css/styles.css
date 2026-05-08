@@ -45,7 +45,7 @@ body {
 /* Layout */
 
 main {
-    padding: 70px 0;
+    padding-top: 70px;
 }
 
 #main-home {
@@ -230,6 +230,32 @@ footer p {
 /* Modal */
 .modal-content {
     color: whitesmoke;
+}
+
+/* ============================================ */
+/* Back to top button */
+
+.back-to-top {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    z-index: 999;
+
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(196, 122, 44, 0.5);
+    color: var(--color-text-light);
+    text-decoration: none;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
 }
 
 /* ============================================ */
