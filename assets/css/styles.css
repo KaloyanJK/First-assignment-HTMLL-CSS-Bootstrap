@@ -51,7 +51,7 @@ main {
 #main-home {
     background:
         linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
-        url("../img/hero-image-1.jpg") left bottom / cover no-repeat fixed;
+        url("../img/hero-image-1.webp") left bottom / cover no-repeat fixed;
 }
 
 /* ============================================ */

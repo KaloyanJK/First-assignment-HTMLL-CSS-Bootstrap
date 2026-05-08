@@ -22,7 +22,7 @@
             rgba(0, 0, 0, 0.2),
             rgba(0, 0, 0, 0.8)
         ),
-        url("../img/tent+men.jpg") left bottom/cover no-repeat fixed;
+        url("../img/tentmen.webp") left bottom/cover no-repeat fixed;
 
     padding-top: 0;
 }
@@ -41,7 +41,7 @@
             rgba(0, 0, 0, 0.1),
             rgba(0, 0, 0, 0.9)
         ),
-        url("../img/places_hero-2.jpg") left top/cover no-repeat;
+        url("../img/places_hero-2.webp") left top/cover no-repeat;
     height: 500px;
 }
 

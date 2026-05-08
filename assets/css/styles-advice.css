@@ -23,7 +23,7 @@
             rgba(0, 0, 0, 0.2),
             rgba(0, 0, 0, 0.8)
         ),
-        url("../img/camping-6.jpg") left bottom/cover no-repeat fixed;
+        url("../img/camping-6.webp") left bottom/cover no-repeat fixed;
 }
 
 /* Section 1 */
@@ -36,7 +36,7 @@
             rgba(0, 0, 0, 0.2),
             rgba(0, 0, 0, 0.6)
         ),
-        url("../img/hero-image-4.jpg") left bottom/cover no-repeat;
+        url("../img/hero-image-4.webp") left bottom/cover no-repeat;
 }
 
 /* Cards */
