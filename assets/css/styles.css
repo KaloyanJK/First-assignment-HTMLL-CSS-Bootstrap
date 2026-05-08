@@ -96,7 +96,7 @@ main {
 
 .hero p {
     color: whitesmoke;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     margin-bottom: 20px;
 }
 
@@ -262,6 +262,12 @@ footer p {
 /* Media queries for responsiveness */
 
 @media (max-width: 576px) {
+    .hero p {
+        color: whitesmoke;
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+
     .back-to-top {
         width: 42px;
         height: 42px;
