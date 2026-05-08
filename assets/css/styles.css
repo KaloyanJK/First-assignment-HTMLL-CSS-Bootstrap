@@ -60,3 +60,29 @@ main {
 .active {
     border-bottom: 1px solid var(--color-primary);
 }
+
+/* ============================================ */
+/* Buttons */
+
+.btn-styles,
+.btn-styles-reverse {
+    border-radius: 0;
+    border: none;
+    color: var(--color-text-light) !important;
+}
+
+.btn-styles {
+    background-color: var(--color-accent) !important;
+}
+
+.btn-styles-reverse {
+    background-color: var(--color-primary) !important;
+}
+
+.btn-styles:hover,
+.btn-styles-reverse:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* ============================================ */
