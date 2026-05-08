@@ -13,3 +13,28 @@
     --color-border: rgb(212, 200, 158);
 }
 
+/* ============================================ */
+
+#main-advice {
+    padding-top: 0;
+    background:
+        linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.8)
+        ),
+        url("../img/camping-6.jpg") left bottom/cover no-repeat fixed;
+}
+
+/* Section 1 */
+#section-1-advice {
+    color: whitesmoke;
+    margin-bottom: 50px;
+    background:
+        linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.6)
+        ),
+        url("../img/hero-image-4.jpg") left bottom/cover no-repeat;
+}

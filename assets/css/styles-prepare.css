@@ -14,6 +14,7 @@
 
 /* ============================================ */
 
+/* Main section background */
 #main-prepare {
     background:
         linear-gradient(
@@ -27,9 +28,7 @@
 /* ============================================ */
 /* Section 1 */
 
-/* Section 1 Carousel */
-
-
+/* Carousel */
 .carousel-caption {
     background: rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
@@ -69,14 +68,17 @@
 /* Media queries for responsiveness */
 
 @media (max-width: 768px) {
-    .list-group {
-        font-size: small;
-    }
+
+    /* Reduce fon size of carousel */
     .carousel-caption h2 {
         font-size: 1.4rem;
     }
-
     .carousel-caption p {
         font-size: 0.95rem;
+    }
+
+    /* Checklist group font reduce */
+    .list-group {
+        font-size: small;
     }
 }
