@@ -180,6 +180,18 @@ main {
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
+.card-icon-tree {
+    color: rgb(47, 74, 46);
+ }
+
+.card-icon-sun {
+    color: rgb(226, 164, 94);
+ }
+
+.card-icon-fire {
+    color: rgb(249, 120, 29);
+ }
+
 /* Card text */
 .card-body-index {
     color: var(--color-text-light);
@@ -193,7 +205,6 @@ main {
 
 .card-fixedSize:hover .card-icon {
     transform: scale(1.1);
-    color: var(--color-accent);
 }
 
 /* ============================================ */

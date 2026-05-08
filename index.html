@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boost SEO -->
+    <meta name="description"
+  content="Beginner-friendly camping guide for first-time campers in the UK. Learn what to pack, campsite rules, and how to prepare.">
     <title>Go Camping / Home</title>
     <!-- Favicon -->
     <link rel="icon" type="img/png" href="assets/logo/favicon-96x96.png">
@@ -15,6 +18,11 @@
 </head>
 
 <body>
+    <!-- Helps keyboard & screen-reader users -->
+    <a href="#main-home" class="visually-hidden-focusable">
+    Skip to main content
+    </a>
+
     <!-- Ancor for the scroll up button -->
      <a id="top"></a>
     <header>
@@ -23,7 +31,7 @@
             <div class="container">
                 <!-- Make the logo a link to the home page -->
                 <a class="navbar-brand" href="index.html">
-                    <img src="assets/logo/Go_Camping_logo.png" alt="Go Camping logo" width="52"
+                    <img src="assets/logo/Go_Camping_logo.png" loading="eager" alt="Go Camping logo" width="52"
                         class="d-inline-block align-text-top">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -80,13 +88,13 @@
                         <div class="accordion" id="section-2-accordion">
                             <!-- Accordion Item 1 -->
                             <div class="accordion-item border-0">
-                                <h2 class="accordion-header">
+                                <h3 class="accordion-header">
                                     <button class="accordion-button accordion-button-1" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#whatIsCamping" aria-expanded="true"
                                         aria-controls="whatIsCamping">
                                         What Is Camping?
                                     </button>
-                                </h2>
+                                </h3>
                                 <div id="whatIsCamping" class="accordion-collapse collapse show"
                                     data-bs-parent="#section-2-accordion">
                                     <div class="accordion-body accordion-body-1">
@@ -101,13 +109,13 @@
                             </div>
                             <!-- Accordion Item 2 -->
                             <div class="accordion-item border-0">
-                                <h2 class="accordion-header">
+                                <h3 class="accordion-header">
                                     <button class="accordion-button accordion-button-1 collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#isItRight" aria-expanded="false"
                                         aria-controls="isItRight">
                                         Is It Right for You?
                                     </button>
-                                </h2>
+                                </h3>
                                 <div id="isItRight" class="accordion-collapse collapse"
                                     data-bs-parent="#section-2-accordion">
                                     <div class="accordion-body accordion-body-1">
@@ -123,13 +131,13 @@
                             </div>
                             <!-- Accordion Item 3 -->
                             <div class="accordion-item border-0">
-                                <h2 class="accordion-header">
+                                <h3 class="accordion-header">
                                     <button class="accordion-button accordion-button-1 collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#worries" aria-expanded="false"
                                         aria-controls="worries">
                                         Common Beginner Worries
                                     </button>
-                                </h2>
+                                </h3>
                                 <div id="worries" class="accordion-collapse collapse"
                                     data-bs-parent="#section-2-accordion">
                                     <div class="accordion-body accordion-body-1">
@@ -145,13 +153,13 @@
                             </div>
                             <!-- Accordion Item 4 -->
                             <div class="accordion-item border-0">
-                                <h2 class="accordion-header">
+                                <h3 class="accordion-header">
                                     <button class="accordion-button accordion-button-1 collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#whatHappens" aria-expanded="false"
                                         aria-controls="whatHappens">
                                         What Happens When You Arrive?
                                     </button>
-                                </h2>
+                                </h3>
                                 <div id="whatHappens" class="accordion-collapse collapse"
                                     data-bs-parent="#section-2-accordion">
                                     <div class="accordion-body accordion-body-1">
@@ -171,13 +179,13 @@
                             </div>
                             <!-- Accordion Item 5 -->
                             <div class="accordion-item border-0">
-                                <h2 class="accordion-header">
+                                <h3 class="accordion-header">
                                     <button class="accordion-button accordion-button-1 collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#dailyLife" aria-expanded="false"
                                         aria-controls="dailyLife">
                                         Daily Life on a Campsite
                                     </button>
-                                </h2>
+                                </h3>
                                 <div id="dailyLife" class="accordion-collapse collapse"
                                     data-bs-parent="#section-2-accordion">
                                     <div class="accordion-body accordion-body-1">
@@ -212,7 +220,7 @@
                     <!-- Card 1 -->
                     <div class="col-12 col-md-4 d-flex justify-content-center">
                         <div class="card pt-3 card-fixedSize text-center">
-                            <i class="fa-solid fa-tree card-icon" style="color: rgb(47, 74, 46);"></i>
+                            <i class="fa-solid fa-tree card-icon card-icon-tree"></i>
                             <div class="card-body-index">
                                 <h3 class="card-header">Connect with Nature</h3>
                                 <p class="card-text">
@@ -226,7 +234,7 @@
                     <!-- Card 2 -->
                     <div class="col-12 col-md-4 d-flex justify-content-center">
                         <div class="card pt-3 card-fixedSize text-center">
-                            <i class="fa-solid fa-sun card-icon" style="color: rgb(226, 164, 94);"></i>
+                            <i class="fa-solid fa-sun card-icon card-icon-sun"></i>
                             <div class="card-body-index">
                                 <h3 class="card-header">Unplug &amp; Recharge</h3>
                                 <p class="card-text">
@@ -239,7 +247,7 @@
                     <!-- Card 3 -->
                     <div class="col-12 col-md-4 d-flex justify-content-center">
                         <div class="card pt-3 card-fixedSize text-center">
-                            <i class="fa-solid fa-fire card-icon" style="color: rgb(249, 120, 29);"></i>
+                            <i class="fa-solid fa-fire card-icon card-icon-fire"></i>
                             <div class="card-body-index">
                                 <h3 class="card-header">Create Memories</h3>
                                 <p class="card-text">
@@ -273,13 +281,13 @@
                         <div class="accordion" id="section-3-accordion">
                             <!-- Accordion Item 1 -->
                             <div class="accordion-item border-0">
-                                <h2 class="accordion-header">
+                                <h3 class="accordion-header">
                                     <button class="accordion-button accordion-button-2" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#goldenRules" aria-expanded="true"
                                         aria-controls="goldenRules">
                                         Golden Rules - Safety and Etiquette
                                     </button>
-                                </h2>
+                                </h3>
                                 <div id="goldenRules" class="accordion-collapse collapse show"
                                     data-bs-parent="#section-3-accordion">
                                     <div class="accordion-body accordion-body-2">
@@ -292,14 +300,14 @@
                             </div>
                             <!-- Accordion Item 2 -->
                             <div class="accordion-item border-0">
-                                <h2 class="accordion-header">
+                                <h3 class="accordion-header">
                                     <button class="accordion-button accordion-button-2 collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#saftyRules" aria-expanded="false"
-                                        aria-controls="saftyRules">
+                                        data-bs-toggle="collapse" data-bs-target="#safetyRules" aria-expanded="false"
+                                        aria-controls="safetyRules">
                                         Safety Rules
                                     </button>
-                                </h2>
-                                <div id="saftyRules" class="accordion-collapse collapse"
+                                </h3>
+                                <div id="safetyRules" class="accordion-collapse collapse"
                                     data-bs-parent="#section-3-accordion">
                                     <div class="accordion-body accordion-body-2">
                                         <p>
@@ -316,13 +324,13 @@
                             </div>
                             <!-- Accordion Item 3 -->
                             <div class="accordion-item border-0">
-                                <h2 class="accordion-header">
+                                <h3 class="accordion-header">
                                     <button class="accordion-button accordion-button-2 collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#environment" aria-expanded="false"
                                         aria-controls="environment">
                                         Respect the Environment
                                     </button>
-                                </h2>
+                                </h3>
                                 <div id="environment" class="accordion-collapse collapse"
                                     data-bs-parent="#section-3-accordion">
                                     <div class="accordion-body accordion-body-2">
@@ -339,13 +347,13 @@
                             </div>
                             <!-- Accordion Item 4 -->
                             <div class="accordion-item border-0">
-                                <h2 class="accordion-header">
+                                <h3 class="accordion-header">
                                     <button class="accordion-button accordion-button-2 collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#beConsiderate" aria-expanded="false"
                                         aria-controls="beConsiderate">
                                         Be Considerate to Others
                                     </button>
-                                </h2>
+                                </h3>
                                 <div id="beConsiderate" class="accordion-collapse collapse"
                                     data-bs-parent="#section-3-accordion">
                                     <div class="accordion-body accordion-body-2">
@@ -361,13 +369,13 @@
                             </div>
                             <!-- Accordion Item 5 -->
                             <div class="accordion-item border-0">
-                                <h2 class="accordion-header">
+                                <h3 class="accordion-header">
                                     <button class="accordion-button accordion-button-2 collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#ukSafe" aria-expanded="false"
                                         aria-controls="ukSafe">
                                         Is Camping Safe in the UK?
                                     </button>
-                                </h2>
+                                </h3>
                                 <div id="ukSafe" class="accordion-collapse collapse"
                                     data-bs-parent="#section-3-accordion">
                                     <div class="accordion-body accordion-body-2">
@@ -388,13 +396,13 @@
                             </div>
                             <!-- Accordion Item 6 -->
                             <div class="accordion-item border-0">
-                                <h2 class="accordion-header">
+                                <h3 class="accordion-header">
                                     <button class="accordion-button accordion-button-2 collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#problems" aria-expanded="false"
                                         aria-controls="problems">
                                         What If Something Goes Wrong?
                                     </button>
-                                </h2>
+                                </h3>
                                 <div id="problems" class="accordion-collapse collapse"
                                     data-bs-parent="#section-3-accordion">
                                     <div class="accordion-body accordion-body-2">
