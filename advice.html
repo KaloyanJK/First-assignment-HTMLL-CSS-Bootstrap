@@ -23,10 +23,16 @@
 </head>
 
 <body>
+    <!-- Helps keyboard & screen-reader users -->
+    <a href="#main-advice" class="visually-hidden-focusable">
+        Skip to main content
+    </a>
+
+    <!-- Ancor for the scroll up button -->
     <a id="top"></a>
     <header>
         <!-- Navigation bar the same on all pages with added "active" class to the active menu link  -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" aria-label="Main navigation">
             <div class="container">
                 <!-- Make the logo a link to the home page -->
                 <a class="navbar-brand" href="index.html">
@@ -57,14 +63,16 @@
         </nav>
     </header>
 
-    <main id="main-advice">
+    <main id="main-advice" aria-labelledby="advice-hero-heading">
 
         <!-- Section Hero 1 -->
         <section id="section-1-advice" class="section hero">
             <div class="container">
                 <div class="row justify-content-end align-items-md-center p-md-5">
                     <div class="col-md-6 text-center custom_background">
-                        <h1 class="border-bottom p-2 text_shadow">Camping Advices for Beginners</h1>
+                        <h1 id="advice-hero-heading" class="border-bottom p-2 text_shadow">
+                            Camping Advices for Beginners
+                        </h1>
                         <p class="px-3 text-start text_shadow">
                             Camping does not have to be complicated or stressful.
                             This page gives you clear, practical advice to help you feel confident,
