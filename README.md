@@ -197,6 +197,7 @@ Testing details, screenshots, and validation results are documented in a separat
 ## Screenshots
 
 ### Homepage
+![Home page](assets/testing_data/)
 - assets/images/screenshots/homepage-320.png
 - assets/images/screenshots/homepage-768.png
 - assets/images/screenshots/homepage-1400.png

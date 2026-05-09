@@ -76,11 +76,64 @@ The website was tested across multiple screen sizes using browser developer tool
 
 ## Lighthouse Testing Summary
 
-Google Lighthouse was used to perform performance, accessibility, best practices, and SEO audits. Minor performance warnings were related to image optimisation and third‑party frameworks, which are acceptable for a static Bootstrap project.
+Google Lighthouse was used to perform audits covering **Performance, Accessibility, Best Practices, and SEO**.  
+Tests were run in a private browser window to minimise the impact of extensions.
 
-Accessibility, best practices, and SEO scores were consistently high, confirming that the website meets modern front‑end standards.
+Minor performance warnings were mainly related to image optimisation and third‑party frameworks (Bootstrap and Font Awesome), which are acceptable for a static Bootstrap‑based project.
+
+Accessibility, Best Practices, and SEO scores were consistently high, confirming that the website meets modern front‑end standards.
 
 ---
+
+## Lighthouse Report Evidence
+
+### Home Page
+
+#### Desktop View
+![Home Page Lighthouse – Desktop](assets/testing_data/lighthouse_reports/homeuse_reports/home_mobile.png
+
+---
+
+### Prepare Page
+
+#### Desktop View
+![Prepare Page Lighthouse – Desktop](assets/testing_data/lighthouse_reports/prepare_desktop.png)
+
+#### Mobile View
+![Prepare Page Lighthouse – Mobile](assets/testing_data/lighthouse_reports/prepare_mobile.png)
+
+---
+
+### Advice Page
+
+#### Desktop View
+![Advice Page Lighthouse – Desktop](assets/testing_data/lighthouse_reports/advice_desktop.png)
+
+#### Mobile View
+![Advice Page Lighthouse – Mobile](assets/testing_data/lighthouse_reports/advice_mobile.png)
+
+---
+
+### Places Page
+
+#### Desktop View
+![Places Page Lighthouse – Desktop](assets/testing_data/lighthouse_reports/places_desktop.png)
+
+#### Mobile View
+![Places Page Lighthouse – Mobile](assets/testing_data/lighthouse_reports/places_mobile.png)
+
+---
+
+### Success Page
+
+#### Desktop View
+![Success Page Lighthouse – Desktop](assets/testing_data/lighthouse_reports/success_desktop.png)
+
+#### Mobile View
+![Success Page Lighthouse – Mobile](assets/testing_data/lighthouse_reports/success_mobile.png)
+
+---
+
 
 ## Conclusion
 
