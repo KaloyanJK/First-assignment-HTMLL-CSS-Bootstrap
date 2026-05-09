@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://ka-f.fontawesome.com" crossorigin>
     <!-- Boost SEO -->
     <meta name="description"
-  content="Beginner-friendly camping guide for first-time campers in the UK. Learn what to pack, campsite rules, and how to prepare.">
+        content="Beginner-friendly camping guide for first-time campers in the UK. Learn what to pack, campsite rules, and how to prepare.">
     <title>Go Camping / Home</title>
     <!-- Favicon -->
     <link rel="icon" type="img/webp" href="assets/logo/favicon-96x96.webp">
@@ -26,7 +26,7 @@
     <a id="top"></a>
     <header>
         <!-- Navigation bar the same on all pages with added "active" class to the active menu link  -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" aria-label="Main navigation">
             <div class="container">
                 <!-- Make the logo a link to the home page -->
                 <a class="navbar-brand" href="index.html">
@@ -57,14 +57,14 @@
         </nav>
     </header>
 
-    <main id="main-places">
+    <main id="main-places" aria-labelledby="places-hero-heading">
         <!-- Section 1 Hero -->
         <section id="section-1-places" class="section hero" aria-labelledby="places-hero-heading">
             <div class="container-fluid">
                 <!-- Hero row -->
                 <div id="section_banner" class="row justify-content-center align-items-center mb-5">
                     <div class="col-md-8 text-center text_shadow">
-                        <h1>Find the Perfect Place to Go Camping</h1>
+                        <h1 id="places-hero-heading">Find the Perfect Place to Go Camping</h1>
                         <p>
                             Choosing where to camp is one of the most exciting parts of planning your trip.
                             Whether you're looking for peaceful countryside, dramatic landscapes, or coastal views,
@@ -164,9 +164,11 @@
                                         Wild, remote camping with dramatic landscapes and true outdoor freedom.
                                     </p>
                                     <a href="https://www.google.com/maps/search/?q=Camping+in+Scottish+Highlands"
-                                        class="btn btn-styles py-o" target="_blank">
+                                        target="_blank" rel="noopener noreferrer"
+                                        aria-label="View campsites in the Scottish Highlands on Google Maps (opens in a new tab)">
                                         View Campsites
                                     </a>
+
                                 </div>
                             </div>
 
@@ -178,10 +180,12 @@
                                     <p class="card-text">
                                         Discover beautiful campsites across Somerset for your next outdoor adventure.
                                     </p>
-                                    <a href="https://www.google.com/maps/search/Camping+in+Somerset"
-                                        class="btn btn-styles" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://www.google.com/maps/search/Camping+in+Somerset" target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="View campsites in the Scottish Highlands on Google Maps (opens in a new tab)">
                                         View Campsites
                                     </a>
+
                                 </div>
                             </div>
 
@@ -198,9 +202,11 @@
                                         Camp among mountains and lakes in one of England's most scenic national parks.
                                     </p>
                                     <a href="https://www.google.com/maps/search/Camping+in+Lake+District"
-                                        class="btn btn-styles" target="_blank">
+                                        target="_blank" rel="noopener noreferrer"
+                                        aria-label="View campsites in the Scottish Highlands on Google Maps (opens in a new tab)">
                                         View Campsites
                                     </a>
+
                                 </div>
                             </div>
                             <!-- Card 4 -->
@@ -211,9 +217,12 @@
                                     <p class="card-text">
                                         Enjoy coastal camping with beaches, cliffs, and stunning sunsets.
                                     </p>
-                                    <a href="https://www.google.com/maps/search/Camping+in+Cornwall"
-                                        class="btn btn-styles" target="_blank">
+                                    <a href="https://www.google.com/maps/search/Camping+in+Cornwall" target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="View campsites in the Scottish Highlands on Google Maps (opens in a new tab)">
                                         View Campsites
+                                    </a>
+
                                     </a>
                                 </div>
                             </div>
