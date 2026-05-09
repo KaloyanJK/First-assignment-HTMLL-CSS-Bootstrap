@@ -2,7 +2,7 @@
 
 Click **[LIVE SITE LINK](https://kaloyanjk.github.io/First-assignment-HTMLL-CSS-Bootstrap/index.html)** to view the deployed website.
 
-![Responsive Mockup home page](assets/mockups/home.png)
+![Responsive Mockup – Home page](assets/mockups/home.png)
 
 ---
 
@@ -22,24 +22,28 @@ Click **[LIVE SITE LINK](https://kaloyanjk.github.io/First-assignment-HTMLL-CSS-
 - [Testing & Validation](#testing--validation)
 - [Limitations & Future Improvements](#limitations--future-improvements)
 - [Screenshots](#screenshots)
+- [Figma Designs & Wireframes](#figma-designs--wireframes)
 
 ---
 
 ## Project Overview
 
-**Go Camping** is a static, beginner‑focused website designed to support **first‑time campers in the UK**. The site explains what camping at organised campsites involves, how to prepare, and how to follow basic safety and etiquette rules. The main aim of the project is to **reduce anxiety** and help users feel confident before their first camping experience.
+**Go Camping** is a static, beginner‑focused website created to help **first‑time campers in the UK** feel confident and prepared. The site explains what camping at organised campsites involves, how to prepare effectively, and how to follow basic campsite safety and etiquette rules.
 
-The website is built using **HTML, CSS, and Bootstrap**, following a **mobile‑first and accessibility‑aware** approach.
+The primary aim of this project is to **reduce anxiety for beginners** and provide clear, practical guidance in a friendly and accessible format.
+
+The website was built using **HTML, CSS, and Bootstrap**, with a strong focus on **responsive design, usability, and accessibility**.
 
 ---
 
 ## Project Updates
 
 - Fully responsive layout tested across all Bootstrap breakpoints
-- Consistent navigation across all pages with active state indicators
-- Accordion components added to reduce text overload for beginners
-- Clear call‑to‑action buttons to guide users through the site
+- Consistent navigation across all pages with active‑link styling
+- Accordion components used to manage large blocks of content
+- Clear call‑to‑action buttons guiding users through the site
 - Improved text contrast and readability on image backgrounds
+- Image optimisation using WebP format to improve performance
 
 ---
 
@@ -66,13 +70,15 @@ The website is built using **HTML, CSS, and Bootstrap**, following a **mobile‑
 - Understand campsite life and expectations
 - Know what to bring and how to prepare
 - Learn basic safety rules and campsite behaviour
-- Navigate information easily on mobile and desktop
+- Navigate information easily on mobile and desktop devices
 
 ---
 
 ## User Experience (UX)
 
-The site uses calm colours, clear spacing, and friendly language to reassure beginners. Content is broken into sections using accordions and cards to avoid overwhelming users. Each page provides a clear **“next step”** to guide the user through the journey.
+The website uses calm, nature‑inspired colours, clear spacing, and friendly language to reassure beginners. Content is broken into manageable sections using accordions and cards to avoid overwhelming users.
+
+Navigation is consistent across all pages, and each page provides a logical **“next step”** to guide users through their camping preparation journey.
 
 ---
 
@@ -94,27 +100,27 @@ As a nervous camper, I want to learn safety and etiquette rules, so I don’t wo
 Primary user flow:  
 **Home → Prepare → Advice → Places**
 
-Each page can be accessed independently but is designed to work as a clear learning sequence.
+Each page can be accessed independently but is designed to work as part of a clear learning sequence.
 
 ---
 
 ## Design Decisions
 
 ### Colour Palette
-- Forest green for trust and nature
-- Earth tones for stability
-- Orange accents for calls to action
-- Neutral backgrounds for readability
+- Forest green tones to reflect nature, trust, and calmness
+- Earth colours for stability and outdoor themes
+- Orange accents used for call‑to‑action buttons
+- Neutral backgrounds to improve readability
 
 ### Typography
 - System sans‑serif fonts for accessibility
-- Clear heading hierarchy
-- Comfortable line‑height
+- Clear heading hierarchy (`h1` → `h2` → `h3`)
+- Comfortable line height to improve readability
 
 ### UI Components
-- Accordions to manage information density
-- Cards to highlight benefits and topics
-- Clear buttons guiding progression
+- Accordions to manage large amounts of information
+- Cards to highlight key topics and benefits
+- Buttons to guide user progression through the site
 
 ---
 
@@ -123,17 +129,17 @@ Each page can be accessed independently but is designed to work as a clear learn
 ### Home – *Is Camping for You?*
 - Introduction and reassurance content
 - Accordion sections explaining camping basics
-- CTA linking to preparation page
+- Call‑to‑action linking to the preparation page
 
 ### Prepare – *What to Pack & How to Get Ready*
 - Beginner checklist and preparation guidance
-- Essentials vs optional items
+- Clear distinction between essential and optional items
 - Interactive checklist layout
 
 ### Advice – *Safety & Campsite Etiquette*
-- Safety rules explained simply
-- Environmental responsibility
-- Reassurance for common worries
+- Safety rules explained in simple language
+- Environmental responsibility guidance
+- Reassurance for common beginner worries
 
 ### Places – *Where to Camp*
 - Embedded Google Maps iframe showing beginner‑friendly camping locations across the UK
@@ -144,24 +150,24 @@ Each page can be accessed independently but is designed to work as a clear learn
 
 ## Technologies Used
 
-- **HTML5** – semantic page structure
+- **HTML5** – semantic markup and page structure
 - **CSS3** – custom styling and layout control
-- **Bootstrap 5** – responsive grid and UI components
+- **Bootstrap 5** – responsive grid system and UI components
 
 ---
 
 ## AI Usage Declaration
 
-AI tools were used as **support only**, primarily for:
+AI tools were used as **supporting tools** during development, primarily for:
 - Logo generation
 - Clarifying Bootstrap behaviour
 - Structuring documentation
-- Content generation
+- Assisting with content drafts
 
-All generated content was reviewed, edited, and adapted.
+All generated content was reviewed, edited, and adapted to meet project requirements.
 
 Tools used:
-- **[COPILOT](https://copilot.microsoft.com/)**
+- **[Microsoft Copilot](https://copilot.microsoft.com/)**
 
 ---
 
@@ -176,29 +182,35 @@ Testing details, screenshots, and validation results are documented in a separat
 ## Limitations & Future Improvements
 
 ### Limitations
-- No backend or form processing
+- No backend or database functionality
 - Static content only
 - Beginner‑level depth by design
 
 ### Future Improvements
-- FAQ page for common questions
+- FAQ page for common beginner questions
 - Downloadable PDF packing checklist
-- Subtle UI animations
-- Beginner confidence quiz
+- Improved animations and transitions
+- Beginner confidence checklist or quiz
 
 ---
 
 ## Screenshots
 
 ### Homepage
-- [HOMEPAGE 320PX](assets/images/screenshots/)
-- [HOMEPAGE 768PX](assets/images/screenshots/)
-- [HOMEPAGE 1400PX](assets/images/screenshots/)
+- assets/images/screenshots/homepage-320.png
+- assets/images/screenshots/homepage-768.png
+- assets/images/screenshots/homepage-1400.png
 
 ### Prepare Page
-- [PREPARE PAGE](assets/images/screenshots/)
+- assets/images/screenshots/prepare-page.png
 
 ### Advice Page
-- [ADVICE PAGE](assets/images/screenshots/)
+- assets/images/screenshots/advice-page.png
 
 ---
+
+## Figma Designs & Wireframes
+
+Design planning, wireframes, and mockups created in Figma are documented in a separate file:
+
+➡ **[VIEW FIGMA DESIGNS](FIGMA.md)**
