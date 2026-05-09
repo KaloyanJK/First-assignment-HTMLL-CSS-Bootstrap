@@ -90,7 +90,10 @@ Accessibility, Best Practices, and SEO scores were consistently high, confirming
 ### Home Page
 
 #### Desktop View
-![Home Page Lighthouse – Desktop](assets/testing_data/lighthouse_reports/homeuse_reports/home_mobile.png
+![Home Page Lighthouse – Desktop](assets/testing_data/lighthouse_reports/home_desktop.png)
+
+#### Mobile View
+![Home Page Lighthouse – Mobile](assets/testing_data/lighthouse_reports/home_mobile.png)
 
 ---
 
@@ -123,17 +126,6 @@ Accessibility, Best Practices, and SEO scores were consistently high, confirming
 ![Places Page Lighthouse – Mobile](assets/testing_data/lighthouse_reports/places_mobile.png)
 
 ---
-
-### Success Page
-
-#### Desktop View
-![Success Page Lighthouse – Desktop](assets/testing_data/lighthouse_reports/success_desktop.png)
-
-#### Mobile View
-![Success Page Lighthouse – Mobile](assets/testing_data/lighthouse_reports/success_mobile.png)
-
----
-
 
 ## Conclusion
 

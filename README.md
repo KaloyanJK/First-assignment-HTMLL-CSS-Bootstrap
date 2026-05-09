@@ -2,11 +2,8 @@
 
 Click **[LIVE SITE LINK](https://kaloyanjk.github.io/First-assignment-HTMLL-CSS-Bootstrap/index.html)** to view the deployed website.
 
-![Responsive Mockup – Home page](assets/mockups/home.png)
-
----
-
 ## Table of Contents
+- [Mockups](#mockups)
 - [Project Overview](#project-overview)
 - [Project Updates](#project-updates)
 - [Goals & Objectives](#goals--objectives)
@@ -23,6 +20,22 @@ Click **[LIVE SITE LINK](https://kaloyanjk.github.io/First-assignment-HTMLL-CSS-
 - [Limitations & Future Improvements](#limitations--future-improvements)
 - [Screenshots](#screenshots)
 - [Figma Designs & Wireframes](#figma-designs--wireframes)
+
+---
+
+## Mockups
+![Responsive Mockup – Home page](assets/mockups/home.png)
+
+<details>
+  <summary>Click to view more mockups</summary>
+
+  <p align="center">
+    <img src="assets/mockups/prepare.png" alt="Responsive Mockup – Prepare Page"><br>
+    <img src="assets/mockups/advice.png" alt="Responsive Mockup – Advice Page"><br>
+    <img src="assets/mockups/places.png" alt="Responsive Mockup – Places Page">
+  </p>
+
+</details>
 
 ---
 
@@ -191,22 +204,6 @@ Testing details, screenshots, and validation results are documented in a separat
 - Downloadable PDF packing checklist
 - Improved animations and transitions
 - Beginner confidence checklist or quiz
-
----
-
-## Screenshots
-
-### Homepage
-![Home page](assets/testing_data/)
-- assets/images/screenshots/homepage-320.png
-- assets/images/screenshots/homepage-768.png
-- assets/images/screenshots/homepage-1400.png
-
-### Prepare Page
-- assets/images/screenshots/prepare-page.png
-
-### Advice Page
-- assets/images/screenshots/advice-page.png
 
 ---
 
