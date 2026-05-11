@@ -190,6 +190,15 @@ Testing details, screenshots, and validation results are documented in a separat
 
 ➡ **[VIEW VALIDATION REPORT](VALIDATIONS.md)**
 
+## Identified Issues
+Lighthouse audits highlighted several areas where the website could be improved, particularly in:
+
+- Performance score. Large background images and multiple image assets affect initial load time.
+Best Practices / Accessibility warnings
+Minor warnings related to image optimisation and third‑party embeds.
+
+- These issues were identified during validation but were not fully resolved within the project timeframe.
+
 ---
 
 ## Limitations & Future Improvements
