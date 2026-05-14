@@ -126,17 +126,68 @@ Each page can be accessed independently but is designed to work as part of a cle
 - Neutral backgrounds to improve readability
 
 
-| Colour | Preview | RGB | Hex |
-|---|---|---|---|
-| Primary | <div style="width:120px;height:24px;background:rgb(47,74,46);border-radius:4px;"></div> | `rgb(47, 74, 46)` | `#2F4A2E` |
-| Primary Dark | <div style="width:120px;height:24px;background:rgb(36,58,35);border-radius:4px;"></div> | `rgb(36, 58, 35)` | `#243A23` |
-| Accent | <div style="width:120px;height:24px;background:rgb(196,122,44);border-radius:4px;"></div> | `rgb(196, 122, 44)` | `#C47A2C` |
-| Accent Light | <div style="width:120px;height:24px;background:rgb(226,164,94);border-radius:4px;"></div> | `rgb(226, 164, 94)` | `#E2A45E` |
-| Main Background | <div style="width:120px;height:24px;background:rgb(243,233,198);border-radius:4px;border:1px solid #ccc;"></div> | `rgb(243, 233, 198)` | `#F3E9C6` |
-| Soft Background | <div style="width:120px;height:24px;background:rgb(250,245,228);border-radius:4px;border:1px solid #ccc;"></div> | `rgb(250, 245, 228)` | `#FAF5E4` |
-| Main Text | <div style="width:120px;height:24px;background:rgb(30,42,30);border-radius:4px;"></div> | `rgb(30, 42, 30)` | `#1E2A1E` |
-| Light Text | <div style="width:120px;height:24px;background:rgb(247,240,214);border-radius:4px;border:1px solid #ccc;"></div> | `rgb(247, 240, 214)` | `#F7F0D6` |
-| Border | <div style="width:120px;height:24px;background:rgb(212,200,158);border-radius:4px;"></div> | `rgb(212, 200, 158)` | `#D4C89E` |
+<table>
+<tr>
+<th>Colour</th>
+<th>Preview</th>
+<th>Hex</th>
+</tr>
+
+<tr>
+<td>Primary</td>
+<td><span style="display:inline-block;width:120px;height:24px;background:#2F4A2E;border-radius:4px;"></span></td>
+<td><code>#2F4A2E</code></td>
+</tr>
+
+<tr>
+<td>Primary Dark</td>
+<td><span style="display:inline-block;width:120px;height:24px;background:#243A23;border-radius:4px;"></span></td>
+<td><code>#243A23</code></td>
+</tr>
+
+<tr>
+<td>Accent</td>
+<td><span style="display:inline-block;width:120px;height:24px;background:#C47A2C;border-radius:4px;"></span></td>
+<td><code>#C47A2C</code></td>
+</tr>
+
+<tr>
+<td>Accent Light</td>
+<td><span style="display:inline-block;width:120px;height:24px;background:#E2A45E;border-radius:4px;"></span></td>
+<td><code>#E2A45E</code></td>
+</tr>
+
+<tr>
+<td>Main Background</td>
+<td><span style="display:inline-block;width:120px;height:24px;background:#F3E9C6;border:1px solid #ccc;border-radius:4px;"></span></td>
+<td><code>#F3E9C6</code></td>
+</tr>
+
+<tr>
+<td>Soft Background</td>
+<td><span style="display:inline-block;width:120px;height:24px;background:#FAF5E4;border:1px solid #ccc;border-radius:4px;"></span></td>
+<td><code>#FAF5E4</code></td>
+</tr>
+
+<tr>
+<td>Main Text</td>
+<td><span style="display:inline-block;width:120px;height:24px;background:#1E2A1E;border-radius:4px;"></span></td>
+<td><code>#1E2A1E</code></td>
+</tr>
+
+<tr>
+<td>Light Text</td>
+<td><span style="display:inline-block;width:120px;height:24px;background:#F7F0D6;border:1px solid #ccc;border-radius:4px;"></span></td>
+<td><code>#F7F0D6</code></td>
+</tr>
+
+<tr>
+<td>Border</td>
+<td><span style="display:inline-block;width:120px;height:24px;background:#D4C89E;border-radius:4px;"></span></td>
+<td><code>#D4C89E</code></td>
+</tr>
+
+</table>
 
 ### Typography
 - System sans‑serif fonts for accessibility
