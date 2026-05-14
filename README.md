@@ -125,6 +125,19 @@ Each page can be accessed independently but is designed to work as part of a cle
 - Orange accents used for call‑to‑action buttons
 - Neutral backgrounds to improve readability
 
+
+| Colour | Preview | RGB | Hex |
+|---|---|---|---|
+| Primary | <div style="width:120px;height:24px;background:rgb(47,74,46);border-radius:4px;"></div> | `rgb(47, 74, 46)` | `#2F4A2E` |
+| Primary Dark | <div style="width:120px;height:24px;background:rgb(36,58,35);border-radius:4px;"></div> | `rgb(36, 58, 35)` | `#243A23` |
+| Accent | <div style="width:120px;height:24px;background:rgb(196,122,44);border-radius:4px;"></div> | `rgb(196, 122, 44)` | `#C47A2C` |
+| Accent Light | <div style="width:120px;height:24px;background:rgb(226,164,94);border-radius:4px;"></div> | `rgb(226, 164, 94)` | `#E2A45E` |
+| Main Background | <div style="width:120px;height:24px;background:rgb(243,233,198);border-radius:4px;border:1px solid #ccc;"></div> | `rgb(243, 233, 198)` | `#F3E9C6` |
+| Soft Background | <div style="width:120px;height:24px;background:rgb(250,245,228);border-radius:4px;border:1px solid #ccc;"></div> | `rgb(250, 245, 228)` | `#FAF5E4` |
+| Main Text | <div style="width:120px;height:24px;background:rgb(30,42,30);border-radius:4px;"></div> | `rgb(30, 42, 30)` | `#1E2A1E` |
+| Light Text | <div style="width:120px;height:24px;background:rgb(247,240,214);border-radius:4px;border:1px solid #ccc;"></div> | `rgb(247, 240, 214)` | `#F7F0D6` |
+| Border | <div style="width:120px;height:24px;background:rgb(212,200,158);border-radius:4px;"></div> | `rgb(212, 200, 158)` | `#D4C89E` |
+
 ### Typography
 - System sans‑serif fonts for accessibility
 - Clear heading hierarchy (`h1` → `h2` → `h3`)
